@@ -1,0 +1,61 @@
+:root {
+    --primary-color: rgb(126, 26, 26);
+    --secondary-color: #6f42c1;
+    --white-color: #FFF;
+    --black-color: #000;
+    --red-color: #990000;
+    --light-gray-color: #EEE;
+    --dark-gray-color: #666;
+    --link-blue-color: rgb(30, 144, 255);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.kimono-bg {
+    background: var(--light-gray-color) url(../img/fundo-background.jpg) repeat;
+    height: 100vh;
+}
+
+.banner-bg {
+    background: var(--secondary-color);
+    position: relative;
+}
+
+.carousel {
+    position: relative;
+    z-index: 0;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 700px; /* Defina a altura desejada para as imagens */
+    object-fit: cover; /* Garante que a imagem cubra todo o espaço do carousel */
+  }
+
+/* .banner {
+    height: 400px;
+} */
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.banner-logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.banner-title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
