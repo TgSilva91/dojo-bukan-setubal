@@ -3,7 +3,7 @@
 @section('title', $title)
 
 @section('content')
-    <div class="section-container">
+    <div class="section-container" id="main">
         <div class="container" style="padding-top: 55px;">
             <div class="row align-items-center" style="height: 150px">
                 <div class="col-sm-12 text-center pt-2">
@@ -71,7 +71,7 @@
         </div>
     </div>
 
-    <div class="section-container">
+    <div class="section-container" id="schedule">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -175,5 +175,63 @@
         </div>
     </div>
 
+    <div class="section-container" id="contact">
 
-@endsection
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div>
+                        <h2>Contactos</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <h3>Fale Connosco</h3>
+                    <form>
+                        <div class="mb-3 row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="name">Nome</label>
+                                    <input type="text" class="form-control" id="name" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="form-group">
+                                <label for="subject">Assunto</label>
+                                <input type="text" class="form-control" id="subject" placeholder="">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="form-group">
+                                <label for="message">Mensagem</label>
+                                <textarea class="form-control" id="message" placeholder=""></textarea>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-6"></div>
+
+
+                <div class="row"></div>
+
+                <div class="row"></div>
+
+            </div>
+
+
+        </div>
+
+
+    @endsection
