@@ -178,7 +178,7 @@
     <div class="section-container" id="contact">
 
         <div class="container">
-            <div class="row">
+            <div class="row mb-5">
                 <div class="col-sm-12">
                     <div>
                         <h2>Contactos</h2>
@@ -186,9 +186,9 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row mb-5">
                 <div class="col-sm-6">
-                    <h3>Fale Connosco</h3>
+                    <h3>Envie uma mensagem</h3>
                     <form>
                         <div class="mb-3 row">
                             <div class="col-sm-6">
@@ -221,14 +221,34 @@
                         </div>
                     </form>
                 </div>
-                <div class="col-sm-6"></div>
-
-
-                <div class="row"></div>
-
-                <div class="row"></div>
-
+                <div class="col-sm-6">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6242.608704259794!2d-8.87726605075377!3d38.52675187026663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19432460025b1d%3A0xd9a758ee47764f82!2sKrav%20Maga%20-%20Dojo%20Bukan%20Set%C3%BAbal!5e0!3m2!1spt-PT!2spt!4v1713194716926!5m2!1spt-PT!2spt"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
+
+            <div class="row mb-5">
+                <div class="col-sm-6">
+                    <div class="white-sqr">
+                        <i class="fa-solid fa-mobile-screen-button fa-shake m-3"></i>
+                        <h3 class="mb-3">Fale connosco</h3>
+                        <p class="mb-3">+351 912 345 678</p>
+                    </div>
+
+
+                </div>
+                <div class="col-sm-6">
+                    <div class="white-sqr">
+                        <i class="fa-solid fa-location-dot fa-bounce m-3"></i>
+                        <h3 class="mb-3">Onde estamos</h3>
+                        <p class="mb-3">Rua Flávio Resende, Loja 15A, Setúbal</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-5"></div>
 
 
         </div>

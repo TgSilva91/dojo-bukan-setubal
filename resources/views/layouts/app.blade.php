@@ -19,6 +19,8 @@
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 
+    <script src="https://kit.fontawesome.com/f322d1eb59.js" crossorigin="anonymous"></script>
+
     {{-- Styles --}}
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 </head>

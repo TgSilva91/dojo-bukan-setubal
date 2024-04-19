@@ -87,6 +87,34 @@ a {
     height: 250px;
 }
 
+.white-sqr {
+    background-color: var(--light-gray-color);
+    margin: 0 20px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 5px rgba(99, 99, 99, 0.25);
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.white-sqr i {
+    font-size: 50px;
+    color: rgb(4, 81, 175);
+}
+
+.white-sqr p {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--dark-gray-color);
+}
+
+.white-sqr h3 {
+    font-weight: 600;
+}
+
 .nowrap {
     white-space: nowrap;
 }
