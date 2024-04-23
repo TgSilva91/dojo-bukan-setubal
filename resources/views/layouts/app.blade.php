@@ -27,10 +27,10 @@
 
 <body class="kimono-bg">
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm fixed-top">
+        {{-- <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    {{-- Adicionar Logo --}}
+                    <!-- Adicionar Logo -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -82,7 +82,7 @@
                     </ul>
                 </div>
             </div>
-        </nav>
+        </nav> --}}
 
         <main class="">
             @yield('content')
